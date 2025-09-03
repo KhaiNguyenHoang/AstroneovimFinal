@@ -1,16 +1,5 @@
--- Set up custom filetypes
-vim.filetype.add {
-  extension = { rasi = "rasi", rofi = "rasi", wofi = "rasi" },
-  filename = {
-    ["vifmrc"] = "vim",
-  },
-  pattern = {
-    [".*/waybar/config.*"] = "jsonc",
-    [".*/mako/config"] = "dosini",
-    [".*/dunst/dunstrc"] = "dosini",
-    [".*/kitty/.+%.conf"] = "kitty",
-    -- [".*/hypr/.+%.conf"] = "hyprlang",
-    [".*/sway/.+%.conf"] = "swayconfig",
-    ["%.env%.[%w_.-]+"] = "sh",
-  },
-}
+if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
+-- This will run last in the setup process.
+-- This is just pure lua so anything that doesn't
+-- fit in the normal config locations above can go here
