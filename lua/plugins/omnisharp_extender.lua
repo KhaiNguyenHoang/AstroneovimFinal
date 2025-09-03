@@ -1,6 +1,6 @@
 return {
   "Hoffs/omnisharp-extended-lsp.nvim",
-  lazy = true, -- chỉ load khi cần
+  lazy = false, -- chỉ load khi cần
   dependencies = { "neovim/nvim-lspconfig" },
   config = function()
     local lspconfig = require "lspconfig"
