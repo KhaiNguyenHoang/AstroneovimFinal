@@ -1,6 +1,6 @@
 local prefix = "<Leader>A"
 
----@type LazySpec
+--@type LazySpec
 return {
   "olimorris/codecompanion.nvim",
   optional = true,
@@ -13,7 +13,7 @@ return {
   specs = {
     {
       "AstroNvim/astrocore",
-      opts = function(_, opts)
+      opts = function(_, opts) 
         if not opts.mappings then opts.mappings = {} end
         opts.mappings.n = opts.mappings.n or {}
         opts.mappings.v = opts.mappings.v or {}
