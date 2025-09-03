@@ -11,7 +11,7 @@ return {
       signature = {
         enabled = false,
       },
-      progress = { enabled = true, view = "mini" }, -- Optional: If you want less clutter
+      progress = { enabled = false, view = "mini" }, -- Optional: If you want less clutter
     },
     presets = {
       bottom_search = false, -- use a classic bottom cmdline for search
